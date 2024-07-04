@@ -406,6 +406,9 @@ PRODUCT_PACKAGES += \
     libunwindstack.vendor \
     libutilscallstack.vendor
 
+PRODUCT_PACKAGES += \
+    libui_shim
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service-lazy
